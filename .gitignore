@@ -1,0 +1,45 @@
+# Local Python environment
+venv/
+.venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+Available Commands
+/start — Initialize the bot and view instructions
+
+/add <username> — Subscribe to an Instagram creator
+
+/remove <username> — Unsubscribe from a creator
+
+/list — Display all tracked accounts for the current chat
+
+Send Instagram URL — Paste any public post or reel link directly into the chat to fetch the video/photovenv/ 
+instagram_bot.db 
